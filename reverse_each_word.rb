@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  words = %w["#{string}"]
+  words = "#{string}".split
   reversed_words = []
   i = 0
   
