@@ -1,10 +1,9 @@
 def reverse_each_word(string)
   words = "#{string}".split
-  reversed_words = []
-  i = 0
-  
-  words.collect do |reversed|
-    reversed.reverse
+  reversed = []
+  words.collect do |reversedWord|
+    reversed << "#{reversedWord.reverse}"
   end
+  reversed.join(' ')
   
 end
