@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  words = %w[string]
+  words = %w["#{string}"]
   reversed_words = []
   i = 0
   
